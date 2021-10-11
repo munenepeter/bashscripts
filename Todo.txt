@@ -1,0 +1,5 @@
+1.  Create a command line version of the game Tic Tac Toe.
+    Make it so you can play against the computer.
+
+2.  Create a simple script which will print the numbers 1 - 10
+    (each on a separate line) and whether they are even or odd.
