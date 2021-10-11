@@ -11,6 +11,10 @@ echo "Enter a directory"
 
 read dir
 
+# This shitty if check can be avoided by specifying
+# the type of in find command 
+# But for the magic or error handling it will stay
+
 # check if the input is a valid folder | Directory
 if [ -d "$dir" ]; then
 
