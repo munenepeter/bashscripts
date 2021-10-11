@@ -1,3 +1,8 @@
+# -----------------------------------------------------
+#  Create a file whilst checking the input using 'IF'
+#  Statements  
+# -------------------------------------------------------
+
 #!/bin/bash/
 
 # Prompt the user to enter a file name
