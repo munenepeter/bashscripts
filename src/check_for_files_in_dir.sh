@@ -22,13 +22,18 @@ if [ -d "$dir" ]; then
 
   # the find cmd returns "./path/to/folder/" & since 
   # we can't cd into "./path/to/folder/ " we try to trim
-  # the "./" using sed inoder to get "path/to/folder/
+  # the "./" using sed in order to get "path/to/folder/
 
   inputDir=$(find -name $dir | sed 's/\.\///g' )
 
   # Some black magic is going on here..... 
   # It does not work when we try to cd into the dir
-
+  
+  #**********************************************8***********
+  # Research about using source 
+  # https://linuxcommand.org/lc3_man_pages/sourceh.html
+  #***********************************************************
+  
   # cd $inputDir
   
   #----------------------------
